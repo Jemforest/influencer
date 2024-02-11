@@ -20,7 +20,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid; */
 }
 nav ul li > img{
     height: 2rem;
@@ -45,7 +44,6 @@ nav h3{
 .banner{
     display: flex;
     justify-content: space-evenly;
-    /* border: 2px solid; */
 }
 .banner img{
     background-image: url(/images/Circle\ design.svg);
@@ -65,7 +63,6 @@ nav h3{
     margin-top: 1rem;
 }
 .logo-main{
-    /* border: 2px solid; */
     padding: 1.25rem;
 }
 .logo-section{ 
@@ -84,11 +81,6 @@ nav h3{
     font-size: 30px;
 }
 
-.third-section{
-    /* border: 2px solid; */
-}
-
-
 .card-main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -98,10 +90,6 @@ nav h3{
 }
 
 /* card styles */
-
-/* .product-name{
-    margin-bottom: 5px;
-} */
 
 .card {
     border: 1px solid #ccc;
@@ -191,4 +179,23 @@ nav h3{
     font-weight: 700;
     padding: .9rem 2.2rem;
   }
-  
+
+.footer-div{
+    padding: 30px;
+    text-align: center;
+    background: #0a0826;
+    color: white;
+}
+
+.foot-img img{
+    height: 1.8rem;
+    margin-right: 10px;
+  }
+
+footer h2{
+    padding: 10px;
+}
+footer p{
+    padding: 10px;
+    margin-bottom: 10px;
+}
