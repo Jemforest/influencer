@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    background: #e02c6d;
+    border-radius: 2rem;
+    border: 0;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .9rem 2.2rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid; */
+}
+nav ul li > img{
+    height: 2rem;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+ul li > a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+nav h3{
+    font-size: 2rem;
+    padding: 3rem 2rem;
+    margin-left: 3rem;
+}
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid; */
+}
+.banner img{
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin-top: 1.9rem;
+    margin-right: 3rem;
+}
+.banner-contant h1{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.banner-contant p{
+    font-size: 1.5rem;
+    margin-left: 5.1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.logo-main{
+    /* border: 2px solid; */
+    padding: 1.25rem;
+}
+.logo-section{ 
+    width: 70%;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0px 20px 20px -30px rgba(0,0,0,0.45), 0px -20px 20px -30px rgba(0,0,0,0.45);
+}
+.logo-section img{
+    margin-right: 1.5rem
+}
+.card-title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.third-section{
+    /* border: 2px solid; */
+}
+
+
+.card-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-right: 12.5rem;
+    margin-left: 12.5rem;
+}
+
+/* card styles */
+
+/* .product-name{
+    margin-bottom: 5px;
+} */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgb(180, 177, 177);
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card-info {
+    margin-top: 20px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .rating {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #a59797;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  /* card style end */
+
+  .see-more {
+    max-height: 6.25rem;
+    overflow: hidden;
+  }
+  
+  .see-more-link {
+    display: block;   
+    color: #e02c6d;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  .see-more a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.56rem;
+    text-align: end;
+    margin-right: 12.5rem;
+    padding: 1.875rem;
+  }
+.featured-img{
+    margin-left: 8rem;
+}
+
+  .featured-last{
+    height: 60vh;
+    display: flex;
+  }
+  .at-one h2{
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem ;
+        margin-top: -2rem;
+  }
+  .at-one p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #464040;
+  }
+  .btn-second{
+    margin-top: 1rem;
+    background: #e02c6d;
+    border-radius: 1rem;
+    border: 0;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .9rem 2.2rem;
+  }
+  
